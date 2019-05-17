@@ -10,7 +10,7 @@ UDP transfer file:
                    
 Implement RDT protocol(Stop and wait ARQ):
                    When packet is received by receiver in order and no bit error is found, send ACK to sender and the sender will 
-                   transmit next packet.Otherwise, the sender will retransmit the packet.
+                   transmit next packet. Otherwise, the sender will retransmit the packet.
                    
                    use gcc -o server server.c -lpthread to compile the server.c 
                    use gcc -o client client.c to compile the client.c
